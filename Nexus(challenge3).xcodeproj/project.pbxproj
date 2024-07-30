@@ -94,8 +94,10 @@
 		2EF1F8E22C595EF400B43235 /* Nexus(challenge3) */ = {
 			isa = PBXGroup;
 			children = (
+				F95C14312C59649200B40321 /* Controller */,
+				F95C142F2C59648500B40321 /* Model */,
+				F95C14302C59648B00B40321 /* View */,
 				2EF1F8E32C595EF400B43235 /* Nexus_challenge3_App.swift */,
-				2EF1F8E52C595EF400B43235 /* ContentView.swift */,
 				2EF1F8E72C595EF500B43235 /* Assets.xcassets */,
 				2EF1F8E92C595EF500B43235 /* Preview Content */,
 			);
@@ -125,6 +127,28 @@
 				2EF1F9002C595EF600B43235 /* Nexus_challenge3_UITestsLaunchTests.swift */,
 			);
 			path = "Nexus(challenge3)UITests";
+			sourceTree = "<group>";
+		};
+		F95C142F2C59648500B40321 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F95C14302C59648B00B40321 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EF1F8E52C595EF400B43235 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F95C14312C59649200B40321 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
