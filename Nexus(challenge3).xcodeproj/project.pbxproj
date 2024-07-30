@@ -14,6 +14,8 @@
 		2EF1F8F52C595EF600B43235 /* Nexus_challenge3_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F8F42C595EF600B43235 /* Nexus_challenge3_Tests.swift */; };
 		2EF1F8FF2C595EF600B43235 /* Nexus_challenge3_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F8FE2C595EF600B43235 /* Nexus_challenge3_UITests.swift */; };
 		2EF1F9012C595EF600B43235 /* Nexus_challenge3_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F9002C595EF600B43235 /* Nexus_challenge3_UITestsLaunchTests.swift */; };
+		F95C14332C59811D00B40321 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C14322C59811D00B40321 /* Profile.swift */; };
+		F95C14352C59813900B40321 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C14342C59813900B40321 /* AuthenticationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2EF1F8FA2C595EF600B43235 /* Nexus(challenge3)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nexus(challenge3)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF1F8FE2C595EF600B43235 /* Nexus_challenge3_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nexus_challenge3_UITests.swift; sourceTree = "<group>"; };
 		2EF1F9002C595EF600B43235 /* Nexus_challenge3_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nexus_challenge3_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F95C14322C59811D00B40321 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F95C14342C59813900B40321 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 		F95C142F2C59648500B40321 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F95C14322C59811D00B40321 /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 		F95C14312C59649200B40321 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F95C14342C59813900B40321 /* AuthenticationManager.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -282,6 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EF1F8E62C595EF400B43235 /* ContentView.swift in Sources */,
+				F95C14352C59813900B40321 /* AuthenticationManager.swift in Sources */,
+				F95C14332C59811D00B40321 /* Profile.swift in Sources */,
 				2EF1F8E42C595EF400B43235 /* Nexus_challenge3_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
