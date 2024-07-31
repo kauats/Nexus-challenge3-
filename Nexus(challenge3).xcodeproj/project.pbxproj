@@ -17,6 +17,7 @@
 		2EF1F90E2C5988E300B43235 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EF1F90D2C5988E300B43235 /* GoogleService-Info.plist */; };
 		2EF1F9122C598A5A00B43235 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2EF1F9112C598A5A00B43235 /* FirebaseAnalytics */; };
 		2EF1F9142C598A5A00B43235 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2EF1F9132C598A5A00B43235 /* FirebaseAuth */; };
+		2EF1F9172C5ABFCC00B43235 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2EF1F9162C5ABFCC00B43235 /* FirebaseAnalyticsSwift */; };
 		F95C14332C59811D00B40321 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C14322C59811D00B40321 /* Profile.swift */; };
 		F95C14352C59813900B40321 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C14342C59813900B40321 /* AuthenticationManager.swift */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF1F9172C5ABFCC00B43235 /* FirebaseAnalyticsSwift in Frameworks */,
 				2EF1F9122C598A5A00B43235 /* FirebaseAnalytics in Frameworks */,
 				2EF1F9142C598A5A00B43235 /* FirebaseAuth in Frameworks */,
 			);
@@ -89,6 +91,7 @@
 				2EF1F8F32C595EF600B43235 /* Nexus(challenge3)Tests */,
 				2EF1F8FD2C595EF600B43235 /* Nexus(challenge3)UITests */,
 				2EF1F8E12C595EF400B43235 /* Products */,
+				2EF1F9152C5ABBBE00B43235 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,6 +145,13 @@
 			path = "Nexus(challenge3)UITests";
 			sourceTree = "<group>";
 		};
+		2EF1F9152C5ABBBE00B43235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F95C142F2C59648500B40321 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +195,7 @@
 			packageProductDependencies = (
 				2EF1F9112C598A5A00B43235 /* FirebaseAnalytics */,
 				2EF1F9132C598A5A00B43235 /* FirebaseAuth */,
+				2EF1F9162C5ABFCC00B43235 /* FirebaseAnalyticsSwift */,
 			);
 			productName = "Nexus(challenge3)";
 			productReference = 2EF1F8E02C595EF400B43235 /* Nexus(challenge3).app */;
@@ -643,8 +654,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 11.0.0;
+				kind = exactVersion;
+				version = 10.4.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -659,6 +670,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2EF1F9102C598A5A00B43235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
+		};
+		2EF1F9162C5ABFCC00B43235 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EF1F9102C598A5A00B43235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
