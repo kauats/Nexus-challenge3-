@@ -18,6 +18,8 @@
 		2EF1F9122C598A5A00B43235 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2EF1F9112C598A5A00B43235 /* FirebaseAnalytics */; };
 		2EF1F9142C598A5A00B43235 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2EF1F9132C598A5A00B43235 /* FirebaseAuth */; };
 		2EF1F9172C5ABFCC00B43235 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2EF1F9162C5ABFCC00B43235 /* FirebaseAnalyticsSwift */; };
+		2EF1F91B2C5AD75000B43235 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F91A2C5AD75000B43235 /* AuthenticationView.swift */; };
+		2EF1F91D2C5C227500B43235 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F91C2C5C227500B43235 /* SignInEmailView.swift */; };
 		F95C14332C59811D00B40321 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C14322C59811D00B40321 /* Profile.swift */; };
 		F95C14352C59813900B40321 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C14342C59813900B40321 /* AuthenticationManager.swift */; };
 		F95C14372C5AD69F00B40321 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F95C14362C5AD69F00B40321 /* FirebaseFirestore */; };
@@ -54,6 +56,8 @@
 		2EF1F9002C595EF600B43235 /* Nexus_challenge3_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nexus_challenge3_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2EF1F90D2C5988E300B43235 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2EF1F90F2C5988F200B43235 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2EF1F91A2C5AD75000B43235 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		2EF1F91C2C5C227500B43235 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 		F95C14322C59811D00B40321 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		F95C14342C59813900B40321 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				2EF1F8E52C595EF400B43235 /* ContentView.swift */,
+				2EF1F91A2C5AD75000B43235 /* AuthenticationView.swift */,
+				2EF1F91C2C5C227500B43235 /* SignInEmailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,9 +328,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EF1F8E62C595EF400B43235 /* ContentView.swift in Sources */,
+				2EF1F91D2C5C227500B43235 /* SignInEmailView.swift in Sources */,
 				F95C14352C59813900B40321 /* AuthenticationManager.swift in Sources */,
 				F95C14332C59811D00B40321 /* Profile.swift in Sources */,
 				2EF1F8E42C595EF400B43235 /* Nexus_challenge3_App.swift in Sources */,
+				2EF1F91B2C5AD75000B43235 /* AuthenticationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
