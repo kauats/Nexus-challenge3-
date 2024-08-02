@@ -29,8 +29,19 @@ struct SignInEmailView: View {
                 .padding()
                 .background(Color.gray.opacity(0.4))
                 .cornerRadius(10)
-            
-            
+            Button {
+                
+                
+            } label: {
+                Text("Sign In")
+                    .font(.headline)
+                    .foregroundStyle(.white)
+                    .frame(height: 55)
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            }
+            Spacer()
         }
             .navigationTitle("Sign In With Email")
         }
