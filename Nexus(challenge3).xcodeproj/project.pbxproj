@@ -24,6 +24,8 @@
 		F95C14352C59813900B40321 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C14342C59813900B40321 /* AuthenticationManager.swift */; };
 		F95C14372C5AD69F00B40321 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F95C14362C5AD69F00B40321 /* FirebaseFirestore */; };
 		F95C14392C5AD69F00B40321 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F95C14382C5AD69F00B40321 /* FirebaseFirestoreSwift */; };
+		F9EAF97A2C5D537D00E59459 /* CodableExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = F9EAF9792C5D537D00E59459 /* CodableExtensions */; };
+		F9EAF97C2C5D547900E59459 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EAF97B2C5D547900E59459 /* DAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,7 @@
 		2EF1F91C2C5C227500B43235 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 		F95C14322C59811D00B40321 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		F95C14342C59813900B40321 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		F9EAF97B2C5D547900E59459 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,7 @@
 				F95C14392C5AD69F00B40321 /* FirebaseFirestoreSwift in Frameworks */,
 				2EF1F9172C5ABFCC00B43235 /* FirebaseAnalyticsSwift in Frameworks */,
 				F95C14372C5AD69F00B40321 /* FirebaseFirestore in Frameworks */,
+				F9EAF97A2C5D537D00E59459 /* CodableExtensions in Frameworks */,
 				2EF1F9122C598A5A00B43235 /* FirebaseAnalytics in Frameworks */,
 				2EF1F9142C598A5A00B43235 /* FirebaseAuth in Frameworks */,
 			);
@@ -182,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				F95C14342C59813900B40321 /* AuthenticationManager.swift */,
+				F9EAF97B2C5D547900E59459 /* DAO.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 				2EF1F9162C5ABFCC00B43235 /* FirebaseAnalyticsSwift */,
 				F95C14362C5AD69F00B40321 /* FirebaseFirestore */,
 				F95C14382C5AD69F00B40321 /* FirebaseFirestoreSwift */,
+				F9EAF9792C5D537D00E59459 /* CodableExtensions */,
 			);
 			productName = "Nexus(challenge3)";
 			productReference = 2EF1F8E02C595EF400B43235 /* Nexus(challenge3).app */;
@@ -283,6 +289,7 @@
 			mainGroup = 2EF1F8D72C595EF400B43235;
 			packageReferences = (
 				2EF1F9102C598A5A00B43235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F9EAF9782C5D537D00E59459 /* XCRemoteSwiftPackageReference "CodableExtensions" */,
 			);
 			productRefGroup = 2EF1F8E12C595EF400B43235 /* Products */;
 			projectDirPath = "";
@@ -327,6 +334,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9EAF97C2C5D547900E59459 /* DAO.swift in Sources */,
 				2EF1F8E62C595EF400B43235 /* ContentView.swift in Sources */,
 				2EF1F91D2C5C227500B43235 /* SignInEmailView.swift in Sources */,
 				F95C14352C59813900B40321 /* AuthenticationManager.swift in Sources */,
@@ -672,6 +680,14 @@
 				version = 10.4.0;
 			};
 		};
+		F9EAF9782C5D537D00E59459 /* XCRemoteSwiftPackageReference "CodableExtensions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rvenieris/CodableExtensions.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -699,6 +715,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2EF1F9102C598A5A00B43235 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestoreSwift;
+		};
+		F9EAF9792C5D537D00E59459 /* CodableExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9EAF9782C5D537D00E59459 /* XCRemoteSwiftPackageReference "CodableExtensions" */;
+			productName = CodableExtensions;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
