@@ -43,7 +43,7 @@ struct SignInEmailView: View {
                 .background(Color.gray.opacity(0.4))
                 .cornerRadius(10)
             
-            SecureField("Password... ", text: $viewModel.email )
+            SecureField("Password... ", text: $viewModel.password )
                 .padding()
                 .background(Color.gray.opacity(0.4))
                 .cornerRadius(10)
