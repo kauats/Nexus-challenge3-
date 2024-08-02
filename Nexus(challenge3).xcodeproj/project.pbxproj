@@ -20,6 +20,7 @@
 		2EF1F9172C5ABFCC00B43235 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2EF1F9162C5ABFCC00B43235 /* FirebaseAnalyticsSwift */; };
 		2EF1F91B2C5AD75000B43235 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F91A2C5AD75000B43235 /* AuthenticationView.swift */; };
 		2EF1F91D2C5C227500B43235 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF1F91C2C5C227500B43235 /* SignInEmailView.swift */; };
+		2EF1F91F2C5D5BED00B43235 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EF1F91E2C5D5BED00B43235 /* GoogleService-Info.plist */; };
 		F95C14332C59811D00B40321 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C14322C59811D00B40321 /* Profile.swift */; };
 		F95C14352C59813900B40321 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95C14342C59813900B40321 /* AuthenticationManager.swift */; };
 		F95C14372C5AD69F00B40321 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F95C14362C5AD69F00B40321 /* FirebaseFirestore */; };
@@ -57,9 +58,9 @@
 		2EF1F8FE2C595EF600B43235 /* Nexus_challenge3_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nexus_challenge3_UITests.swift; sourceTree = "<group>"; };
 		2EF1F9002C595EF600B43235 /* Nexus_challenge3_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nexus_challenge3_UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2EF1F90D2C5988E300B43235 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2EF1F90F2C5988F200B43235 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2EF1F91A2C5AD75000B43235 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		2EF1F91C2C5C227500B43235 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
+		2EF1F91E2C5D5BED00B43235 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F95C14322C59811D00B40321 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		F95C14342C59813900B40321 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		F9EAF97B2C5D547900E59459 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
@@ -100,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				2EF1F8E22C595EF400B43235 /* Nexus(challenge3) */,
-				2EF1F8F32C595EF600B43235 /* Nexus(challenge3)Tests */,
 				2EF1F8FD2C595EF600B43235 /* Nexus(challenge3)UITests */,
 				2EF1F8E12C595EF400B43235 /* Products */,
 				2EF1F9152C5ABBBE00B43235 /* Frameworks */,
@@ -120,12 +120,13 @@
 		2EF1F8E22C595EF400B43235 /* Nexus(challenge3) */ = {
 			isa = PBXGroup;
 			children = (
+				2EF1F91E2C5D5BED00B43235 /* GoogleService-Info.plist */,
 				F95C14312C59649200B40321 /* Controller */,
 				F95C142F2C59648500B40321 /* Model */,
 				F95C14302C59648B00B40321 /* View */,
 				2EF1F8E32C595EF400B43235 /* Nexus_challenge3_App.swift */,
 				2EF1F8E72C595EF500B43235 /* Assets.xcassets */,
-				2EF1F90F2C5988F200B43235 /* GoogleService-Info.plist */,
+				2EF1F8F32C595EF600B43235 /* Nexus(challenge3)Tests */,
 				2EF1F8E92C595EF500B43235 /* Preview Content */,
 			);
 			path = "Nexus(challenge3)";
@@ -308,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EF1F8EB2C595EF500B43235 /* Preview Assets.xcassets in Resources */,
+				2EF1F91F2C5D5BED00B43235 /* GoogleService-Info.plist in Resources */,
 				2EF1F8E82C595EF500B43235 /* Assets.xcassets in Resources */,
 				2EF1F90E2C5988E300B43235 /* GoogleService-Info.plist in Resources */,
 			);
